@@ -3,7 +3,8 @@
 
   var EMAIL = "loes@salesday.nl";
   var COSTS = 800;           // vaste kosten: Funda, fotograaf, brochures
-  var TRADITIONAL = 0.015;   // indicatie traditionele courtage
+  var TRAD_LOW = 0.011;      // gangbare courtage, onderkant
+  var TRAD_HIGH = 0.014;     // gangbare courtage, bovenkant
 
   // Mobiel menu
   var toggle = document.querySelector(".nav-toggle");
@@ -35,8 +36,10 @@
       var one = p * 0.01;
       var fee = Math.max(one - COSTS, 0) / 2;
       var total = fee + COSTS;
-      var trad = p * TRADITIONAL;
-      var saving = Math.max(trad - total, 0);
+      var tradLo = p * TRAD_LOW, tradHi = p * TRAD_HIGH;
+      var trad = tradHi;
+      var saving = Math.max(tradLo - total, 0) ;
+      var savingHi = Math.max(tradHi - total, 0);
       var set = function (k, v) { out(k).forEach(function (el) { el.textContent = v; }); };
       set("price", euro(p));
       set("one", euro(one));
@@ -44,8 +47,8 @@
       set("rest", euro(one - COSTS));
       set("fee", euro(fee));
       set("total", euro(total));
-      set("trad", euro(trad));
-      set("saving", euro(saving));
+      set("trad", euro(tradLo) + " tot " + euro(tradHi));
+      set("saving", euro(saving) + " tot " + euro(savingHi));
       var pct = trad > 0 ? Math.round((total / trad) * 100) : 0;
       root.querySelectorAll("[data-bar]").forEach(function (b) { b.style.width = pct + "%"; });
       root.querySelectorAll("[data-bar-trad]").forEach(function (b) { b.style.width = "100%"; });

@@ -10,7 +10,7 @@ Website voor [mevrouw-de-makelaar.nl](https://mevrouw-de-makelaar.nl): persoonli
 ## Prijsformule
 Vergoeding = (1% van verkoopprijs − €800) / 2, plus €800 vaste kosten.
 Voorbeeld €500.000: (5.000 − 800) / 2 = 2.100 + 800 = **€2.900** totaal.
-De constanten staan bovenin `main.js` (`COSTS`, `TRADITIONAL`).
+De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 
 ## Nog in te vullen (zoek op `class="ph"`)
 - KvK- en btw-nummer, juridische naam en adres

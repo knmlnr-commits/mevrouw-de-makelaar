@@ -370,3 +370,4 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
 .nav .btn, .nav .btn:hover { box-shadow: none; }
 .nav .btn--primary { background: transparent; color: var(--teal-900); border: 1px solid var(--teal-900); padding: .55em 1.1em; font-size: .88rem; }
 .nav .btn--primary:hover { background: var(--teal-900); color: #fff; }
+.pp-row.old b { font-size: 1.3rem; } .saving { flex-wrap: wrap; } .saving strong { font-size: 1.45rem; } .compare-row { flex-wrap: wrap; }
