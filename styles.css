@@ -586,3 +586,4 @@ body { background: var(--sand-50); }
 @media (max-width: 560px) { .acc-about { flex-direction: column; } }
 .acc .faq details:first-child { border-top: 0; }
 .acc .faq summary { font-size: 1.05rem; }
+.acc-about img { height: auto; }
