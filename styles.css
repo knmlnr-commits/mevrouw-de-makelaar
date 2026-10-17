@@ -550,3 +550,14 @@ body { background: var(--sand-50); }
 .wa-float svg { width: 30px; height: 30px; }
 @media (max-width: 520px) { .wa-float { width: 56px; height: 56px; padding: 0; } }
 .portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Compact header met MgM bij scrollen */
+.site-header .wrap { transition: height .25s ease; }
+.logo-e { position: relative; }
+.logo-e .wm, .logo-e small { transition: opacity .2s ease; }
+.wm-mono { position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-family: var(--serif); font-size: 1.7rem; letter-spacing: .02em; color: var(--teal-900); opacity: 0; pointer-events: none; transition: opacity .2s ease; white-space: nowrap; }
+.wm-mono i { font-style: italic; color: #6f5c3a; }
+.site-header.is-scrolled .wrap { height: 60px; }
+.site-header.is-scrolled .logo-e .wm, .site-header.is-scrolled .logo-e small { opacity: 0; }
+.site-header.is-scrolled .wm-mono { opacity: 1; }
+@media (max-width: 960px) { .site-header.is-scrolled .nav { inset: 60px 0 auto 0; } }
+.logo-e .wm-mono, .logo-e .wm-mono i { font-weight: 400; }
