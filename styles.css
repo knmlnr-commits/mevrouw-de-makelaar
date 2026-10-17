@@ -607,3 +607,4 @@ body { background: var(--sand-50); }
 .acc-more { margin: 22px 0 0; }
 .partner-note { margin-top: 40px; color: var(--muted); max-width: 680px; }
 .about--text { grid-template-columns: 1fr; max-width: 760px; }
+.trio { font-family: var(--serif); font-size: clamp(1.15rem, 1.8vw, 1.4rem); color: var(--teal-900); margin: -.2em 0 .8em; letter-spacing: .005em; }
