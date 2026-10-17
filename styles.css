@@ -489,3 +489,25 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
 .hp-total span { color: var(--muted); font-size: .92rem; }
 .hp-total strong { grid-row: span 2; font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 4.6vw, 3.6rem); line-height: 1; color: var(--teal-900); }
 .hp-total small { color: var(--muted); font-size: .85rem; }
+/* Snelle calculator in de opening */
+.qcalc { background: #fff; border: 1px solid var(--sand-200); border-top: 2px solid var(--teal-900); padding: clamp(22px, 3vw, 34px); }
+.qcalc label { display: block; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 8px; }
+.qcalc .range { margin: 18px 0 6px; }
+.q-result { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 2px 16px; padding: 20px 0 18px; border-bottom: 1px solid var(--sand-200); }
+.q-result span { color: var(--ink); font-weight: 600; }
+.q-result strong { grid-row: span 2; font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 4.6vw, 3.4rem); line-height: 1; color: var(--teal-900); font-variant-numeric: tabular-nums; }
+.q-result small { color: var(--muted); }
+.q-row { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 0; border-bottom: 1px solid var(--sand-200); font-size: .96rem; color: var(--muted); }
+.q-row b { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.q-save, .q-save b { color: var(--teal-900); font-weight: 600; }
+.q-how { margin-top: 12px; }
+.q-how summary { cursor: pointer; font-size: .9rem; color: var(--teal-900); font-weight: 600; padding: 6px 0; }
+.q-how .steps-calc { margin-top: 8px; }
+.q-how .steps-calc li { font-size: .92rem; padding: 8px 0; }
+.q-how .disclaimer { color: var(--muted); margin-top: 10px; font-size: .82rem; }
+.incl { list-style: none; padding: 0; gap: 0 48px; margin-top: 40px; }
+.incl li { border-top: 1px solid var(--teal-900); padding: 18px 0 30px; font-family: var(--serif); font-size: 1.25rem; color: var(--teal-900); }
+.section-xl h2 { margin-bottom: .8em; }
+.split-head h2 { margin-bottom: 0; }
+.hero-ed { padding-bottom: clamp(56px, 8vw, 110px); }
+.hero-ed h1 { font-size: clamp(2.6rem, 5.6vw, 4.6rem); }

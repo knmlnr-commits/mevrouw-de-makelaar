@@ -1,6 +1,6 @@
 # Mevrouw de Makelaar
 
-Website voor [mevrouw-de-makelaar.nl](https://mevrouw-de-makelaar.nl): persoonlijke woningverkoop door Loes in Rosmalen en 's-Hertogenbosch.
+Website voor [mevrouw-de-makelaar.nl](https://mevrouw-de-makelaar.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
 
 ## Techniek
 - Statische HTML, CSS en JavaScript, geen build-stap
@@ -13,11 +13,11 @@ Voorbeeld €500.000: (5.000 − 800) / 2 = 2.100 + 800 = **€2.900** totaal.
 De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 
 ## Nog in te vullen (zoek op `class="ph"`)
-- KvK- en btw-nummer, juridische naam en adres
+- KvK-nummer, juridische naam en adres
 - Foto van Loes en persoonlijk verhaal
 - Verkochte woningen: type, plaats, verkooptijd, echte foto's
 - Echte klantreviews (met toestemming)
-- Afspraak bij geen verkoop, btw-behandeling, aansprakelijkheid
+- Afspraak bij geen verkoop, aansprakelijkheid
 - og-image.png (1200x630) voor social sharing
 
 ## Contactformulier
