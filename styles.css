@@ -527,3 +527,12 @@ body { background: var(--sand-50); }
 .money-input { background: transparent; }
 .photo-ph { background: #d3dccf; }
 .hero-ed h1 em { font-style: italic; color: #6f5c3a; font-weight: 400; }
+/* WhatsApp, goed zichtbaar */
+.btn--wa { background: #1f6f4a; color: #fff; border: 1px solid #1f6f4a; }
+.btn--wa:hover { background: #185a3b; border-color: #185a3b; color: #fff; }
+.btn--wa svg { width: 20px; height: 20px; flex: none; }
+.contact-card .btn--wa { color: #fff; }
+.wa-float { width: auto; height: auto; border-radius: 999px; padding: 14px 22px 14px 18px; display: inline-flex; align-items: center; gap: 10px; background: #1f6f4a; color: #fff; font-weight: 600; font-size: .98rem; text-decoration: none; box-shadow: 0 8px 24px rgba(31, 111, 74, .28); right: 22px; bottom: 22px; }
+.wa-float:hover { background: #185a3b; color: #fff; }
+.wa-float svg { width: 24px; height: 24px; }
+@media (max-width: 520px) { .wa-float { padding: 13px 18px 13px 15px; right: 16px; bottom: 16px; } .cookie { bottom: 90px; } }
