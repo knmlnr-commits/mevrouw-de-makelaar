@@ -8,8 +8,8 @@ Website voor [mevrouw-geen-makelaar.nl](https://www.mevrouw-geen-makelaar.nl): p
 - Geen externe scripts, fonts of trackers (AVG-vriendelijk)
 
 ## Prijsformule
-Vergoeding = (1% van verkoopprijs − €800) / 2, plus €800 vaste kosten.
-Voorbeeld €500.000: (5.000 − 800) / 2 = 2.100 + 800 = **€2.900** totaal.
+Vergoeding = (1% van verkoopprijs − €865) / 2, plus €865 vaste kosten.
+Voorbeeld €500.000: (5.000 − 865) / 2 = 2.067,50 + 865 = **€2.932,50** totaal.
 De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 
 ## Nog in te vullen (zoek op `class="ph"`)

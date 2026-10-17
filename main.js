@@ -2,7 +2,7 @@
   "use strict";
 
   var EMAIL = "loes@salesday.nl";
-  var COSTS = 800;           // vaste kosten: Funda, fotograaf, brochures
+  var COSTS = 865;           // vaste kosten: Funda, fotograaf, brochures
   var TRAD_LOW = 0.011;      // gangbare courtage, onderkant
   var TRAD_HIGH = 0.014;     // gangbare courtage, bovenkant
 
