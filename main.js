@@ -95,7 +95,7 @@
         "",
         String(d.get("bericht") || "")
       ];
-      var subject = "Kennismaking aangevraagd via mevrouw-de-makelaar.nl";
+      var subject = "Kennismaking aangevraagd via mevrouw-geen-makelaar.nl";
       var href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\n"));
       window.location.href = href;
       if (msg) {

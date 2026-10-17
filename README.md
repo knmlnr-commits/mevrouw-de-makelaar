@@ -1,6 +1,6 @@
 # Mevrouw geen Makelaar
 
-Website voor [mevrouw-de-makelaar.nl](https://mevrouw-de-makelaar.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
+Website voor [mevrouw-geen-makelaar.nl](https://www.mevrouw-geen-makelaar.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
 
 ## Techniek
 - Statische HTML, CSS en JavaScript, geen build-stap
