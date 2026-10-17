@@ -38,6 +38,11 @@
       "source": "/index",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/verkocht",
+      "destination": "/",
+      "permanent": false
     }
   ]
 }
