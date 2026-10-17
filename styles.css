@@ -606,3 +606,4 @@ body { background: var(--sand-50); }
 .acc-list.one { columns: 1; margin-top: 10px; }
 .acc-more { margin: 22px 0 0; }
 .partner-note { margin-top: 40px; color: var(--muted); max-width: 680px; }
+.about--text { grid-template-columns: 1fr; max-width: 760px; }
