@@ -587,3 +587,22 @@ body { background: var(--sand-50); }
 .acc .faq details:first-child { border-top: 0; }
 .acc .faq summary { font-size: 1.05rem; }
 .acc-about img { height: auto; }
+/* Samenwerking Makelaar1 */
+.partner-line { margin: 22px 0 0; font-size: .92rem; color: var(--muted); }
+.partner-line a { color: var(--teal-900); text-underline-offset: 3px; text-decoration-color: var(--brass); }
+.who { display: inline-block; font-family: var(--sans); font-style: normal; font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; color: #6f5c3a; }
+.acc-steps li { grid-template-columns: 44px 200px 1fr auto; }
+.acc-steps .who { text-align: right; white-space: nowrap; }
+@media (max-width: 640px) { .acc-steps li { grid-template-columns: 36px 1fr; } .acc-steps .who { grid-column: 2; text-align: left; } }
+.steps-ed { grid-template-columns: repeat(4, 1fr); row-gap: 40px; }
+@media (max-width: 1000px) { .steps-ed { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .steps-ed { grid-template-columns: 1fr; } }
+.steps-ed .who { display: block; margin-bottom: 8px; }
+.roles { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.roles > div { border-top: 1px solid var(--teal-900); padding-top: 16px; }
+.roles p { margin: 10px 0 0; color: var(--ink); }
+@media (max-width: 640px) { .roles { grid-template-columns: 1fr; } }
+.roles--lg { gap: 56px; }
+.acc-list.one { columns: 1; margin-top: 10px; }
+.acc-more { margin: 22px 0 0; }
+.partner-note { margin-top: 40px; color: var(--muted); max-width: 680px; }
