@@ -511,3 +511,18 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
 .split-head h2 { margin-bottom: 0; }
 .hero-ed { padding-bottom: clamp(56px, 8vw, 110px); }
 .hero-ed h1 { font-size: clamp(2.6rem, 5.6vw, 4.6rem); }
+/* Rustige achtergrond: zacht salie */
+:root { --sand-50: #eef0eb; --sand-100: #e4e8e0; --sand-200: #cdd3c8; --muted: #5f625c; }
+body { background: var(--sand-50); }
+.site-header { background: rgba(238, 240, 235, .96); border-bottom-color: var(--sand-200); }
+.photo-ph { background: #dde2d8; }
+.photo-ph { background-image: none; }
+.qcalc, .calc { background: #f8f9f6; }
+.field input, .field textarea { background: #f8f9f6; }
+.calc-output { background: var(--sand-50); }
+.eyebrow, .hp-label, .num, .steps-ed li::before, .logo small { color: #6f5c3a; }
+.site-footer .logo small { color: #c9b48e; }
+:root { --sand-50: #e9eee6; --sand-100: #dde5da; --sand-200: #c6d0c2; }
+.site-header { background: rgba(233, 238, 230, .96); }
+.money-input { background: transparent; }
+.photo-ph { background: #d3dccf; }
