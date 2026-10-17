@@ -526,3 +526,4 @@ body { background: var(--sand-50); }
 .site-header { background: rgba(233, 238, 230, .96); }
 .money-input { background: transparent; }
 .photo-ph { background: #d3dccf; }
+.hero-ed h1 em { font-style: italic; color: #6f5c3a; font-weight: 400; }
