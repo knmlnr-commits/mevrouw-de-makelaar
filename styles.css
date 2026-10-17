@@ -536,3 +536,16 @@ body { background: var(--sand-50); }
 .wa-float:hover { background: #185a3b; color: #fff; }
 .wa-float svg { width: 24px; height: 24px; }
 @media (max-width: 520px) { .wa-float { padding: 13px 18px 13px 15px; right: 16px; bottom: 16px; } .cookie { bottom: 90px; } }
+/* Logo optie E: woordmerk met accent */
+.logo-e { display: inline-flex; flex-direction: column; gap: 3px; text-decoration: none; color: var(--teal-900); line-height: 1; }
+.logo-e .wm { font-family: var(--serif); font-size: 1.42rem; font-weight: 400; letter-spacing: -0.005em; white-space: nowrap; }
+.logo-e .wm i { font-style: italic; color: #6f5c3a; }
+.logo-e small { font-family: var(--sans); font-size: .58rem; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); font-weight: 500; margin: 0; white-space: nowrap; }
+.site-footer .logo-e { color: #fff; margin-bottom: 14px; }
+.site-footer .logo-e .wm i { color: #c9b48e; }
+.site-footer .logo-e small { color: #b9b0a5; }
+@media (max-width: 420px) { .logo-e .wm { font-size: 1.22rem; } .logo-e small { font-size: .5rem; letter-spacing: .14em; } }
+.logo-e { align-items: flex-start; }
+.wa-float { width: 60px; height: 60px; padding: 0; justify-content: center; border-radius: 50%; }
+.wa-float svg { width: 30px; height: 30px; }
+@media (max-width: 520px) { .wa-float { width: 56px; height: 56px; padding: 0; } }
