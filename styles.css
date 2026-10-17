@@ -561,3 +561,28 @@ body { background: var(--sand-50); }
 .site-header.is-scrolled .wm-mono { opacity: 1; }
 @media (max-width: 960px) { .site-header.is-scrolled .nav { inset: 60px 0 auto 0; } }
 .logo-e .wm-mono, .logo-e .wm-mono i { font-weight: 400; }
+/* Harmonica op de homepage */
+.acc-wrap { max-width: 900px; }
+.acc > details { border-top: 1px solid var(--teal-900); }
+.acc > details:last-child { border-bottom: 1px solid var(--teal-900); }
+.acc > details > summary { list-style: none; cursor: pointer; position: relative; padding: 28px 56px 28px 0; font-family: var(--serif); font-size: clamp(1.4rem, 2.6vw, 1.9rem); color: var(--teal-900); }
+.acc > details > summary::-webkit-details-marker { display: none; }
+.acc > details > summary::before, .acc > details > summary::after { content: ""; position: absolute; right: 8px; top: 50%; width: 18px; height: 1.5px; background: #6f5c3a; transition: transform .25s ease; }
+.acc > details > summary::after { transform: rotate(90deg); }
+.acc > details[open] > summary::after { transform: rotate(0deg); }
+.acc > details > summary:hover { color: #6f5c3a; }
+.acc-body { padding: 0 0 32px; color: var(--muted); }
+.acc-list { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 40px; }
+.acc-list li { padding: 10px 0; border-bottom: 1px solid var(--sand-200); break-inside: avoid; color: var(--ink); }
+@media (max-width: 640px) { .acc-list { columns: 1; } }
+.acc-steps { list-style: none; padding: 0; margin: 0; counter-reset: a; }
+.acc-steps li { display: grid; grid-template-columns: 44px 180px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--sand-200); align-items: baseline; }
+.acc-steps li::before { counter-increment: a; content: "0" counter(a); font-family: var(--serif); color: #6f5c3a; }
+.acc-steps b { color: var(--ink); font-weight: 600; }
+@media (max-width: 640px) { .acc-steps li { grid-template-columns: 36px 1fr; } .acc-steps span { grid-column: 2; } }
+.acc-about { display: flex; gap: 28px; align-items: flex-start; }
+.acc-about img { width: 180px; aspect-ratio: 4 / 5; object-fit: cover; flex: none; }
+.acc-about p { font-size: 1.1rem; color: var(--ink); margin: 0; max-width: 560px; }
+@media (max-width: 560px) { .acc-about { flex-direction: column; } }
+.acc .faq details:first-child { border-top: 0; }
+.acc .faq summary { font-size: 1.05rem; }
