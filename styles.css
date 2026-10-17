@@ -480,3 +480,12 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
 .cta-band { border: 0; border-top: 1px solid var(--teal-900); padding: 40px 0 0; }
 .photo-ph { background: #ebe6de; }
 .portrait { overflow: hidden; } .portrait .photo-ph { position: absolute; inset: 0; }
+.hero-ed-grid { align-items: center; }
+.hero-price { border-top: 1px solid var(--teal-900); padding-top: 22px; }
+.hp-label { display: block; font-size: .74rem; letter-spacing: .22em; text-transform: uppercase; color: var(--brass); font-weight: 600; margin-bottom: 10px; }
+.hp-list { list-style: none; padding: 0; margin: 0 0 8px; }
+.hp-list li { padding: 13px 0; border-bottom: 1px solid var(--sand-200); color: var(--ink); font-size: .98rem; }
+.hp-total { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 2px 16px; padding-top: 22px; }
+.hp-total span { color: var(--muted); font-size: .92rem; }
+.hp-total strong { grid-row: span 2; font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 4.6vw, 3.6rem); line-height: 1; color: var(--teal-900); }
+.hp-total small { color: var(--muted); font-size: .85rem; }
