@@ -17,9 +17,13 @@ De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 - Foto van Loes en persoonlijk verhaal
 - Verkochte woningen: type, plaats, verkooptijd, echte foto's
 - Echte klantreviews (met toestemming)
-- Afspraak bij geen verkoop, aansprakelijkheid
-- og-image.png (1200x630) voor social sharing
+- Aansprakelijkheid in de voorwaarden (uurtarief bij intrekking: €75 per uur, ingevuld)
 
 ## Contactformulier
 Het formulier opent het mailprogramma van de bezoeker met een ingevuld bericht aan `loes@salesday.nl`.
 Het adres staat in `main.js` (`EMAIL`) en in de HTML; zoek en vervang bij wijziging.
+
+## Onderhoud
+- Header en footer staan in elk HTML-bestand apart; wijzig ze overal.
+- Na een wijziging in `styles.css` of `main.js`: werk het versienummer (`?v=...`) in alle HTML-bestanden bij, bijv. de eerste 8 tekens van de sha1 van het bestand.
+- `vercel.json` zet een Content-Security-Policy: alleen eigen scripts, geen externe bronnen. Voeg een domein toe als je ooit een externe dienst inbouwt.
