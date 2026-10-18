@@ -35,3 +35,7 @@ Het adres staat in `main.js` (`EMAIL`) en in de HTML; zoek en vervang bij wijzig
 ## Domein
 - Hoofddomein: www.eerlijkhuisverkopen.nl (canonical, sitemap, robots, og-tags).
 - In Vercel (Settings > Domains): www.eerlijkhuisverkopen.nl als productiedomein, eerlijkhuisverkopen.nl doorsturen naar www, en www.mevrouw-geen-makelaar.nl en mevrouw-geen-makelaar.nl met een 308-redirect doorsturen naar www.eerlijkhuisverkopen.nl.
+
+## Tijdelijke inlog
+Zolang de afspraken met Makelaar1 niet rond zijn, vraagt de site om een wachtwoord (`middleware.js`, Vercel Routing Middleware). De gebruikersnaam maakt niet uit. Het wachtwoord staat niet in de code, alleen een gezouten PBKDF2-hash. Site openbaar maken: verwijder `middleware.js` en push.
+
