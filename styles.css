@@ -620,3 +620,6 @@ h2.h3 { font-size: 1.3rem; font-weight: 700; letter-spacing: 0; }
 .page-hero + .section-xl { padding-top: clamp(36px, 5vw, 64px); }
 .page-hero:has(+ .section-xl) { padding: clamp(40px, 6vw, 80px) 0 clamp(28px, 4vw, 44px); }
 .page-hero:has(+ .section-xl) .lead { margin-bottom: 0; }
+/* Halve courtage, subtiel benadrukt */
+.trio em { font-style: italic; color: #6f5c3a; }
+.q-tag { margin: 16px 0 -12px; font-size: .74rem; letter-spacing: .22em; text-transform: uppercase; color: #6f5c3a; font-weight: 600; }
