@@ -608,3 +608,7 @@ body { background: var(--sand-50); }
 .partner-note { margin-top: 40px; color: var(--muted); max-width: 680px; }
 .about--text { grid-template-columns: 1fr; max-width: 760px; }
 .trio { font-family: var(--serif); font-size: clamp(1.15rem, 1.8vw, 1.4rem); color: var(--teal-900); margin: -.2em 0 .8em; letter-spacing: .005em; }
+.plan { list-style: none; padding: 0; margin-top: 0; }
+.plan > li { border-top: 1px solid var(--teal-900); padding-top: 22px; }
+.plan h3 { font-size: 1.2rem; font-weight: 400; margin-bottom: .4em; }
+.plan p { color: var(--muted); margin: 0; }
