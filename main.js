@@ -119,7 +119,7 @@
     });
   }
 
-  // Compact logo (MgM) bij scrollen
+  // Compact logo (EHV) bij scrollen
   var header = document.querySelector(".site-header");
   if (header) {
     var onScroll = function () { header.classList.toggle("is-scrolled", window.scrollY > 80); };
