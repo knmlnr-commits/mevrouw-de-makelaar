@@ -1,6 +1,6 @@
 # Eerlijk huis verkopen
 
-Website voor [mevrouw-geen-makelaar.nl](https://www.mevrouw-geen-makelaar.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
+Website voor [eerlijkhuisverkopen.nl](https://www.eerlijkhuisverkopen.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
 
 ## Techniek
 - Statische HTML, CSS en JavaScript, geen build-stap
@@ -31,3 +31,7 @@ Het adres staat in `main.js` (`EMAIL`) en in de HTML; zoek en vervang bij wijzig
 - Header en footer staan in elk HTML-bestand apart; wijzig ze overal.
 - Na een wijziging in `styles.css` of `main.js`: werk het versienummer (`?v=...`) in alle HTML-bestanden bij, bijv. de eerste 8 tekens van de sha1 van het bestand.
 - `vercel.json` zet een Content-Security-Policy: alleen eigen scripts, geen externe bronnen. Voeg een domein toe als je ooit een externe dienst inbouwt.
+
+## Domein
+- Hoofddomein: www.eerlijkhuisverkopen.nl (canonical, sitemap, robots, og-tags).
+- In Vercel (Settings > Domains): www.eerlijkhuisverkopen.nl als productiedomein, eerlijkhuisverkopen.nl doorsturen naar www, en www.mevrouw-geen-makelaar.nl en mevrouw-geen-makelaar.nl met een 308-redirect doorsturen naar www.eerlijkhuisverkopen.nl.

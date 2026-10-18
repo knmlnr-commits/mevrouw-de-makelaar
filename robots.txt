@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mevrouw-geen-makelaar.nl/sitemap.xml
+Sitemap: https://www.eerlijkhuisverkopen.nl/sitemap.xml
