@@ -17,7 +17,11 @@ De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 - Foto van Loes en persoonlijk verhaal
 - Verkochte woningen: type, plaats, verkooptijd, echte foto's
 - Echte klantreviews (met toestemming)
-- Aansprakelijkheid in de voorwaarden (uurtarief bij intrekking: €75 per uur, ingevuld)
+- Aansprakelijkheid in de voorwaarden
+
+## Afspraken
+- Kennismaking en intake zijn vrijblijvend.
+- Trekt de klant zich terug na het verstrekken van de opdracht, dan worden gewerkte uren (€75 per uur, minimum €300) en gemaakte kosten doorbelast. Het uurtarief staat alleen in de voorwaarden, niet prominent op de site.
 
 ## Contactformulier
 Het formulier opent het mailprogramma van de bezoeker met een ingevuld bericht aan `loes@salesday.nl`.
