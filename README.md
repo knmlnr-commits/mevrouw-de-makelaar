@@ -13,7 +13,7 @@ Voorbeeld €500.000: (5.000 − 865) / 2 = 2.067,50 + 865 = **€2.932,50** tot
 De constanten staan bovenin `main.js` (`COSTS`, `TRAD_LOW`, `TRAD_HIGH`).
 
 ## Nog in te vullen (zoek op `class="ph"`)
-- KvK-nummer (nu: eenmanszaak in oprichting), juridische naam en adres
+- KvK-nummer (nu: eenmanszaak in oprichting) en juridische naam (adres: Buskeshoeven 87, 5242 KP Rosmalen)
 - Foto van Loes en persoonlijk verhaal
 - Verkochte woningen: type, plaats, verkooptijd, echte foto's
 - Echte klantreviews (met toestemming)
