@@ -1,6 +1,6 @@
 # Eerlijk huis verkopen
 
-Website voor [eerlijkhuisverkopen.nl](https://www.eerlijkhuisverkopen.nl): persoonlijke woningverkoop door Loes in Den Bosch, Rosmalen, Berlicum en Vught.
+Website voor [eerlijkhuisverkopen.nl](https://www.eerlijkhuisverkopen.nl): persoonlijke woningverkoop door Loes in Den Bosch en omstreken, van Rosmalen tot Vught.
 
 ## Techniek
 - Statische HTML, CSS en JavaScript, geen build-stap

@@ -75,7 +75,7 @@ function loginPage(back, error) {
     'button{margin-top:16px;width:100%;font:inherit;font-weight:600;padding:14px;border:0;background:var(--head);color:#fff;cursor:pointer}button:hover{background:#46403a}' +
     '.err{color:#8a2b1f;font-weight:600;margin:12px 0 0}' +
     '</style></head><body><main class="box">' +
-    '<h1 class="logo"><i>Eerlijk</i> huis verkopen</h1><div class="sub">Den Bosch &middot; Rosmalen &middot; Berlicum &middot; Vught</div>' +
+    '<h1 class="logo"><i>Eerlijk</i> huis verkopen</h1><div class="sub">Den Bosch en omstreken</div>' +
     '<p>Deze site is nog niet openbaar. Vul het wachtwoord in om verder te gaan.</p>' +
     '<form method="post" action="' + LOGIN_PATH + '">' +
     '<input type="hidden" name="next" value="' + esc(back) + '">' +
